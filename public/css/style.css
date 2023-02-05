@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2? family=Roboto:wght@100&display=swap');
+
+header {
+    background-color : #EAC926;
+    font-family:'Roboto', sans-serif;
+    margin: auto;
+}
+
+.cuerpos-de-texto{
+font-size: 12px;
+} 
+
+.titulares{
+font-size:24px
+} 
+
+.precios{
+ font-size: 18px;   
+} 
+
+.descuentos{
+font-size:16px;
+}
+
+.descripciones{
+font-size: 16px;
+}
+
+.burger-menu{
+    width: 16px;
+    height: 21px;
+    padding: 10px;
+    background-color: #03264C;
+    border-radius: 12px;
+    margin: 50%;
+    margin-block: 0%;
+    color: white;
+    font-size: 20px;
+}
+
+.p-cuotas {
+    text-align: center;
+}
+
+.logo {
+width: 200px;
+height: 15vh;
+margin: 15px 1px 0px 1px;
+padding: 10px;
+}
+
+.imagen{
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+footer{
+    text-align: center;
+}
+
+.icono-footer{
+    width: 2em;
+    margin-bottom: 10px;
+}
+
+.copyright{
+    font-size: 12px;
+}
