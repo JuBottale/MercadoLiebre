@@ -68,3 +68,12 @@ footer{
 .copyright{
     font-size: 12px;
 }
+
+main{
+    justify-content: center;
+    size: 90%;
+}
+
+article{
+    margin-bottom: 10px;
+}
