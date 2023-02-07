@@ -69,11 +69,16 @@ footer{
     font-size: 12px;
 }
 
-main{
+main {
     justify-content: center;
     size: 90%;
+   
 }
 
-article{
-    margin-bottom: 10px;
+article {
+    margin: 10px;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    background-color: #ebebeb;
+   
 }
