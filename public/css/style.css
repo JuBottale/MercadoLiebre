@@ -92,7 +92,7 @@ article {
     padding: 15px;
 }
 
-  .icono-envio{
+ /*  .icono-envio{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -110,7 +110,7 @@ main section article i{
     right: 20px;
     top: -15px;
 }   
-
+ */
 
 /* Tablet */
 @media (min-width: 361px){
