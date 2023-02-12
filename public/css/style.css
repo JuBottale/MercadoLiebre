@@ -5,6 +5,7 @@ header {
     background-color : #EAC926;
     font-family:'Roboto', sans-serif;
     margin: auto;
+    padding: 10px;
 }
 
 .cuerpos-de-texto{
@@ -19,7 +20,8 @@ font-size:24px
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
+    text-align: left;
 }
 
 .precios{
@@ -35,6 +37,10 @@ width: 30%;
 
 .descripciones{
 font-size: 16px;
+color: #666;
+text-align: left;
+margin: 0px;
+padding: 0px;
 }
 
 .burger-menu{
@@ -51,13 +57,18 @@ font-size: 16px;
 
 .p-cuotas {
     text-align: center;
+    margin: auto;
+    font-size: 80%;
 }
 
 .logo {
-width: 200px;
-height: 15vh;
+width: 50%;
 margin: 15px 1px 0px 1px;
 padding: 10px;
+}
+
+.barra-navegacion{
+    width: 50%;
 }
 
 .imagen{
@@ -92,11 +103,12 @@ article {
     padding: 15px;
 }
 
- /*  .icono-envio{
+.icono-envio{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
    }
+   
 main section article i{
     display: block;
     font-size: 16px;
@@ -106,11 +118,12 @@ main section article i{
     border: 1px solid #39b54a;
     background-color: #FFF;
     border-radius: 50%;
-    position: absolute;
-    right: 20px;
+    position: relative;
+    right: -40%;
     top: -15px;
 }   
- */
+
+
 
 /* Tablet */
 @media (min-width: 361px){
@@ -120,7 +133,8 @@ main section article i{
     nav {
     display: none;
 }
-}; 
+}
+ 
 
 /* Notebook/Computadora */
 @media (min-width: 769px) {
@@ -135,5 +149,18 @@ main section article i{
 }
     nav {
     display: block;
+}
+.caja3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.caja4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
 }
 }; 
