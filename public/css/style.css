@@ -1,10 +1,16 @@
 
 @import url('https://fonts.googleapis.com/css2? family=Roboto:wght@100&display=swap');
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
 header {
     background-color : #EAC926;
     font-family:'Roboto', sans-serif;
     margin: auto;
+    padding: 10px;
 }
 
 .cuerpos-de-texto{
@@ -15,49 +21,71 @@ font-size: 12px;
 font-size:24px
 } 
 
+.caja1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+}
+
 .precios{
- font-size: 18px;   
+ font-size: 18px;
+ width: 30%;
 } 
 
 .descuentos{
 font-size:16px;
+color:#39b54a;
+width: 30%;
 }
 
 .descripciones{
 font-size: 16px;
+color: #666;
+text-align: left;
+margin: 0px;
+padding: 0px;
 }
 
 .burger-menu{
-    width: 16px;
-    height: 21px;
-    padding: 10px;
+    width: 12%;
+    height: 11%;
+    padding: 2%;
     background-color: #03264C;
-    border-radius: 12px;
+    border-radius: 15%;
     margin: 50%;
-    margin-block: 0%;
+    margin-block: 2%;
     color: white;
-    font-size: 20px;
+    font-size: 150%;
+    text-align: center;
 }
 
 .p-cuotas {
     text-align: center;
+    margin: auto;
+    font-size: 80%;
 }
 
 .logo {
-width: 200px;
-height: 15vh;
+width: 50%;
 margin: 15px 1px 0px 1px;
 padding: 10px;
 }
 
+.barra-navegacion{
+    width: 50%;
+}
+
 .imagen{
-    width: 300px;
-    height: 300px;
+    width: 100%;
+   /*  height: 300px; */
     box-sizing: border-box;
 }
 
 footer{
     text-align: center;
+    width: 95%;
 }
 
 .icono-footer{
@@ -68,3 +96,78 @@ footer{
 .copyright{
     font-size: 12px;
 }
+
+main {
+    text-align: center;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+article {
+    margin: 10px;
+    background-color: #ebebeb;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+.icono-envio{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   }
+   
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: relative;
+    right: -40%;
+    top: -15px;
+}   
+
+
+/* Tablet */
+@media (min-width: 361px){
+    .descripciones{
+    display: none;
+    }
+    nav {
+    display: none;
+    }
+        }
+
+/* Notebook/Computadora */
+@media (min-width: 769px) {
+    body {
+    box-shadow : 0px 0px 10px rgb(100, 100, 100);
+    }
+    .burger-menu {
+    display: none;
+    }
+    .descripciones{
+    display: block;
+    }
+    nav {
+    display: block;
+    }
+    .caja3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+    .caja4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    }
+        }; 
