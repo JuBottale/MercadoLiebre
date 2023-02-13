@@ -99,17 +99,22 @@ footer{
 
 main {
     text-align: center;
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    background-color: #ebebeb;
 }
 
 article {
     margin: 10px;
-    background-color: #ebebeb;
+    background-color: white;
     border-top: 1px solid #ebebeb;
     padding: 15px;
+}
+
+.detalle{
+border-top: 1px solid #ebebeb;
 }
 
 .icono-envio{
