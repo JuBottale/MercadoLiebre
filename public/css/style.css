@@ -146,6 +146,18 @@ main section article i{
     nav {
     display: none;
     }
+    .contenedor{
+        display: flex;
+        flex-direction: row;
+    }
+    .caja1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: left;
+        flex-wrap: wrap;
+    }
         }
 
 /* Notebook/Computadora */
@@ -161,6 +173,14 @@ main section article i{
     }
     nav {
     display: block;
+    }
+    .caja1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        text-align: left;
+        flex-wrap: wrap;
     }
     .caja3{
     display: flex;

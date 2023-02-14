@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crea tu cuenta..</title>
+    <link href= "/css/style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <header> 
+        <div>
+        <img class="logo" src= "/img/mercado-liebre.svg">
+        </div>
+
+    <main>
+        <form action="/register" method="POST">
+            <p>
+                <label for="nombre y apellido">Nombre y apellido:</label>
+                <input type="text" name="nombre y apellido" id="nombre y apellido">
+            </p>
+            <br>
+            <p>
+                <label for="usuario">Usuario:</label>
+                <input type="text" name="usuario" id="usuario">
+            </p>
+            <br>
+            <p>
+                <label for="fecha nacimiento">Fecha de nacimiento:</label>
+                <input type="date" name="fecha de nacimiento" id="fecha de nacimiento">
+            </p>
+            <br>
+            <p>
+                <h4>Usted desea:</h4>
+            <br> 
+                <label for="perfil">Comprar</label>
+                <input type="radio" name="perfil" value="comprar">
+                <label for="perfil">Vender</label>
+                <input type="radio" name="perfil" value="vender">
+            </p>
+            <p>
+            <br>
+                <h4>Categorías de interés:</h4>
+            <br>
+            <label for="interes">Electro</label>
+                <input type="checkbox" name="interes" value="interes">
+            <label for="interes">Moda</label>
+                <input type="checkbox" name="interes" value="interes">
+            <label for="interes">Hogar</label>
+                <input type="checkbox" name="interes" value="interes">
+            <label for="interes">Jugetería</label>
+                <input type="checkbox" name="interes" value="interes">
+            <label for="interes">Vida sana</label>
+                <input type="checkbox" name="interes" value="interes">
+            </p>
+            <br> 
+                <label for="foto-perfil">Inserte una foto de perfil:</label>
+                <input type="file" name="foto-perfil" accept=".jpg">
+            <br> 
+            <br>
+                <label for="contraseña1">Contraseña:</label>
+                <input type="password" name="contraseña1" required alt="strongPass" minlength="6" maxlength="10">
+                <br>
+                <br>
+		        Confirmar contraseña: <input type="password" name="contraseña" minlength="6" maxlength="10">
+		        <br>
+                <br>
+		        <input type="button" value="Confirmar contraseña" >
+                <br>
+                <br>
+            
+            <input type="button" value="ENVIAR DATOS"> 
+            <br>
+            <input type="button" value="BORRAR DATOS">
+</form>
+
+            
+
+        </form> 
+
+    </main> 
+
+    <footer>
+    
+    </footer>
+
+</body>
+</html>
