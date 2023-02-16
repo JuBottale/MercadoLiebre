@@ -17,21 +17,23 @@
         <img class="logo" src= "/img/mercado-liebre.svg">
         </div>
 
-    <main>
+    <main class="formulario">
+    <h1> Creá tu cuenta</h1>
+    <br>
         <form action="/register" method="POST">
             <p>
                 <label for="nombre y apellido">Nombre y apellido:</label>
-                <input type="text" name="nombre y apellido" id="nombre y apellido">
+                <input type="text" name="nombre y apellido" id="nombre y apellido"  class="boton">
             </p>
             <br>
             <p>
                 <label for="usuario">Usuario:</label>
-                <input type="text" name="usuario" id="usuario">
+                <input type="text" name="usuario" id="usuario" class="boton">
             </p>
             <br>
             <p>
                 <label for="fecha nacimiento">Fecha de nacimiento:</label>
-                <input type="date" name="fecha de nacimiento" id="fecha de nacimiento">
+                <input type="date" name="fecha de nacimiento" id="fecha de nacimiento" class="boton">
             </p>
             <br>
             <p>
@@ -63,30 +65,27 @@
             <br> 
             <br>
                 <label for="contraseña1">Contraseña:</label>
-                <input type="password" name="contraseña1" required alt="strongPass" minlength="6" maxlength="10">
+                <input type="password" name="contraseña1" required alt="strongPass" minlength="6" maxlength="10" class="boton">
                 <br>
                 <br>
-		        Confirmar contraseña: <input type="password" name="contraseña" minlength="6" maxlength="10">
+                <label for="contraseña2"> Confirmar contraseña:</label>
+		        <input type="password" name="contraseña" minlength="6" maxlength="10"  class="boton">
 		        <br>
                 <br>
-		        <input type="button" value="Confirmar contraseña" >
+		        <input type="button" value="Confirmar contraseña">
                 <br>
                 <br>
             
-            <input type="button" value="ENVIAR DATOS"> 
+            <input type="button" value="ENVIAR DATOS" class="boton-final"> 
             <br>
-            <input type="button" value="BORRAR DATOS">
-</form>
-
-            
+            <br>
+            <input type="button" value="BORRAR DATOS" class="boton-final">
+            <br>
+            <br>
 
         </form> 
 
     </main> 
-
-    <footer>
-    
-    </footer>
 
 </body>
 </html>

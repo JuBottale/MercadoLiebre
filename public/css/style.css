@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2? family=Roboto:wght@100&display=swap');
+ 
+/* PAGINA PRINCIPAL  */
 
 *{
     box-sizing: border-box;
@@ -97,12 +99,16 @@ footer{
     font-size: 12px;
 }
 
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 main {
     text-align: center;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     background-color: #ebebeb;
 }
 
@@ -111,6 +117,7 @@ article {
     background-color: white;
     border-top: 1px solid #ebebeb;
     padding: 15px;
+    width: 80%;
 }
 
 .detalle{
@@ -138,7 +145,50 @@ main section article i{
 }   
 
 
-/* Tablet */
+     /*    FORMULARIO */
+
+    .formulario{
+        background-color: #ebebeb;
+        color:black;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 0px 3px 11px 2px rgb(100 100 100 / 57%);
+    }
+
+    h1{
+        text-align: center;
+        font-size: 20px;
+        color:#666;
+        border-bottom:2px #eac926 dotted;
+        color: #03264c;
+        font-family: "Roboto",sans-serif;
+    }
+
+    .boton{
+        border: 2px solid black;
+        border-radius: 6px;
+    }
+
+    .boton-final{
+        background-color: #eac926;
+        border: 2px solid #EAC926;
+        border-radius: 6px;
+    }
+
+    label{
+        font-size: 12px;
+        color: black;
+        font-family: "Roboto", sans-serif;
+        font-style: italic;
+    }
+
+    h4{
+        font-size: 13px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    /* Tablet */
+
 @media (min-width: 361px){
     .descripciones{
     display: none;
@@ -149,6 +199,7 @@ main section article i{
     .contenedor{
         display: flex;
         flex-direction: row;
+        justify-content: center;
     }
     .caja1 {
         display: flex;
@@ -158,9 +209,18 @@ main section article i{
         text-align: left;
         flex-wrap: wrap;
     }
+    article {
+        margin: 10px;
+        background-color: white;
+        border-top: 1px solid #ebebeb;
+        padding: 15px;
+        width: 45%;
+    }
         }
 
+
 /* Notebook/Computadora */
+
 @media (min-width: 769px) {
     body {
     box-shadow : 0px 0px 10px rgb(100, 100, 100);
@@ -194,5 +254,22 @@ main section article i{
     justify-content: flex-start;
     align-items: center;
     text-align: left;
+    }
+
+    article {
+        margin: 10px;
+        background-color: white;
+        border-top: 1px solid #ebebeb;
+        padding: 15px;
+        width: 20%;
+    }
+    .contenedor{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .boton-buscar{
+        position: relative;
+        left: -100px;
     }
         }; 
