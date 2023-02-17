@@ -44,10 +44,14 @@ width: 30%;
 
 .descripciones{
 font-size: 16px;
-color: #666;
+color: white;
 text-align: left;
 margin: 0px;
 padding: 0px;
+transition: color 1s;
+}
+.descripciones:hover{
+    color: black;
 }
 
 .burger-menu{
@@ -128,8 +132,8 @@ border-top: 1px solid #ebebeb;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-   }
-   
+}
+
 main section article i{
     display: block;
     font-size: 16px;
@@ -143,6 +147,44 @@ main section article i{
     right: -40%;
     top: -15px;
 }   
+/* 
+CAMION DE ENVIO ROTACION Y COLOR */
+
+.fa-truck{
+    content: "\f0d1";
+    transition: rotate;
+    color: #39b54a;
+}
+.fa-truck:hover{
+    transform: rotate(270deg);
+}
+
+/* CAMBIO COLOR ICONO FOOTER */
+
+.fa-credit-card {
+    content: "\f09d";
+    color:black;
+    transition: color 1s;
+}
+.fa-credit-card:hover{
+    color:#0022AA;
+}
+.fa-gift{
+    content: "\f06b";
+    color:black;
+    transition: color 1s;
+}
+.fa-gift:hover{
+    color:#0022AA;
+}
+.fa-user-shield{
+    content: "\f505";
+    color: black;
+    transition: color 1s;}
+.fa-user-shield:hover{
+    color: #0022AA;
+}
+
 
 
      /*    FORMULARIO */
@@ -170,9 +212,13 @@ main section article i{
     }
 
     .boton-final{
-        background-color: #eac926;
-        border: 2px solid #EAC926;
+        background-color: #ebebeb9d;
+        border: 2px solid black;
         border-radius: 6px;
+        transition: background-color 1s;
+    }
+    .boton-final:hover{
+        background-color: #0022AA;
     }
 
     label{
@@ -271,5 +317,10 @@ main section article i{
     .boton-buscar{
         position: relative;
         left: -100px;
+    }
+
+    footer{
+        display: flex;
+        flex-wrap: nowrap;
     }
         }; 
