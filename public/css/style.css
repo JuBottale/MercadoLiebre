@@ -168,7 +168,7 @@ CAMION DE ENVIO ROTACION Y COLOR */
     transition: color 1s;
 }
 .fa-credit-card:hover{
-    color:#0022AA;
+    color:#2e50da;
 }
 .fa-gift{
     content: "\f06b";
@@ -176,14 +176,14 @@ CAMION DE ENVIO ROTACION Y COLOR */
     transition: color 1s;
 }
 .fa-gift:hover{
-    color:#0022AA;
+    color:#2e50da;
 }
 .fa-user-shield{
     content: "\f505";
     color: black;
     transition: color 1s;}
 .fa-user-shield:hover{
-    color: #0022AA;
+    color: #2e50da;
 }
 
 
@@ -220,6 +220,7 @@ CAMION DE ENVIO ROTACION Y COLOR */
     }
     .boton-final:hover{
         background-color: #0022AA;
+        color: white;
     }
 
     label{
@@ -323,5 +324,6 @@ CAMION DE ENVIO ROTACION Y COLOR */
     footer{
         display: flex;
         flex-wrap: nowrap;
+        font-size: 80%;
     }
         }; 
